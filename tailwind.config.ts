@@ -18,7 +18,7 @@ export default {
         ThirdImage: "url('/images/superCar(3).jpg')",
         FourthImage: "url('/images/superCar(4).jpg')",
         FifthImage: "url('/images/superCar(5).jpg')",
-        SIxthImage: "url('/images/superCar(6).jpg')",
+        SixthImage: "url('/images/superCar(6).jpg')",
         SeventhImage: "url('/images/superCar(7).jpg')",
        
       }
@@ -28,7 +28,7 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["cupcake","coffee, winter"],
+    themes: ["cupcake","coffee","autumn", "winter"],
     darktheme: "coffee"
   },
 } satisfies Config;
