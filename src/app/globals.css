@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.Nav{
+  position: fixed;
+  width: 100%;
+}
+/* @keyframes parallax {
+  to{
+    transform: translateY(calc(var(--parallax-speed) * 200px));
+  }
+} */
+.ImgContainer{
+  width: 100%;
+  /* animation: parallax linear; */
+  
+}
+.Img{
+  width: 100%;
+  object-fit: cover;
+}
+.ImgSecondary{
+  width: 50%;
+}
+
+.contain{
+  display: flex;
+  flex-direction: row;
+}
