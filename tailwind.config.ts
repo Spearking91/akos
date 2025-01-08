@@ -20,6 +20,8 @@ export default {
         FifthImage: "url('/images/superCar(5).jpg')",
         SixthImage: "url('/images/superCar(6).jpg')",
         SeventhImage: "url('/images/superCar(7).jpg')",
+        EighthImage: "url('/images/superCar(8).jpg')",
+        NinthImage: "url('/images/superCar(9).jpg')",
        
       }
     },

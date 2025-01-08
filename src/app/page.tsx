@@ -3,6 +3,7 @@ import Link from "next/link";
 import ProductCard from "../components/ProductCard";
 import NavBar from "../components/NavBar";
 import CustomButton from "../components/CustomButton";
+import Slide from "@/components/Slide";
 
 export default function Home() {
   return (
@@ -29,10 +30,10 @@ export default function Home() {
               <img className="object-cover w-full h-full" src="/images/superCar(5).jpg" alt="" />
               </div>
               <div className="flex-1 border-2 border-blue-500">
-              <img className="object-cover w-full h-full" src="/images/superCar(6).jpg" alt="" />
+              <img className="object-cover w-full h-full" src="/images/superCar(8).jpg" alt="" />
               </div>
               <div className="flex-1 border-2 border-orange-400">
-                <img className="object-cover w-full h-full" src="/images/superCar(7).jpg" alt="" />
+                <img className="object-cover w-full h-full" src="/images/superCar(9).jpg" alt="" />
               </div>
             </div>
             <div>
@@ -47,7 +48,9 @@ export default function Home() {
         </section>
         
         <section id="c2" className="flex-row-reverse flex w-full h-auto">
-          <div className="w-1/2 bg-FourthImage bg-no-repeat bg-cover bg-center" />
+          <div className="w-1/2 ">
+          <Slide />
+          </div>
           <div className="bg-secondary p-10 justify-center text-center items-center flex w-1/2 flex-col">
           <div>
               <h1 className="text-2xl text-primary">Contact</h1>
@@ -65,7 +68,9 @@ export default function Home() {
         <div className="bg-secondary p-10" />
         
         <section id="c3" className="flex-row flex w-full h-auto ">
-          <div className="w-1/2 bg-FifthImage bg-no-repeat bg-cover bg-center" />
+        <div className="w-1/2 ">
+          <Slide />
+          </div>
           <div className="bg-secondary p-10 justify-center text-center items-center flex w-1/2 flex-col">
           <div>
               <h1 className="text-2xl text-primary">About</h1>
@@ -81,7 +86,9 @@ export default function Home() {
         </section>
         <div className="bg-secondary p-10" />
         <section id="c4" className="flex-row-reverse flex w-full h-auto">
-          <div className="w-1/2 bg-SixthImage bg-no-repeat bg-cover bg-center" />
+        <div className="w-1/2 ">
+          <Slide />
+          </div>
           <div className="bg-secondary p-10 justify-center text-center items-center flex flex-1">
           <div>
               <h1 className="text-2xl text-primary">Help</h1>
