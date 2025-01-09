@@ -26,7 +26,10 @@ function App({
 
   return (
     <img
-      className={`transition-opacity duration-1000 ease-linear object-cover w-full h-full`}
+      key={currentSlide}
+      className={
+        "w-full h-full object-cover transition-opacity duration-500 ease-linear"
+      }
       src={slides[currentSlide].src}
       alt={slides[currentSlide].alt}
     />
